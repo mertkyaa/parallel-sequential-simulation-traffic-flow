@@ -1,0 +1,33 @@
+{
+  "sequential": {
+    "wall_time": 2.6650675000273623,
+    "completed": 960,
+    "avg_wait": 9.560798149828283,
+    "avg_travel": 15.758295106009802
+  },
+  "parallel": {
+    "wall_time": 0.917201499978546,
+    "completed": 960,
+    "avg_wait": 9.172233686369653,
+    "avg_travel": 15.369710669227874,
+    "speedup": 2.905651048422511,
+    "vehicles_per_sector": {
+      "1": 247,
+      "2": 243,
+      "0": 265,
+      "3": 245
+    }
+  },
+  "partition": {
+    "num_sectors": 4,
+    "nodes_per_sector": {
+      "0": 324,
+      "1": 306,
+      "2": 306,
+      "3": 289
+    },
+    "boundary_nodes": 136,
+    "cross_sector_edges": 140,
+    "total_edges": 4760
+  }
+}

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+
+# Sanal ortam
+venv/
+.env
+
+# Claude
+.claude/
+
+# Proje raporu (commit edilmeyecek)
+RAPOR.md
+RAPOR.pdf
+CLAUDE.md
+
+# WhatsApp görseli
+WhatsApp Image*.jpeg
+
+# macOS
+.DS_Store
